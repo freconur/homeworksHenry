@@ -9,7 +9,7 @@ const {
 
 describe('factorear(num)', function() {
   it('Debería devolver ...?', function() {
-    expect(factorear(180)).toEqual([1,2,2,3,3,5]);
+    expect(factorear(180)).toEqual([1,2,2,3,3,5]); 
     expect(factorear(32)).toEqual([1,2,2,2,2,2]);
     expect(factorear(33)).toEqual([1,3,11]);
     expect(factorear(1)).toEqual([1]);
@@ -19,7 +19,7 @@ describe('factorear(num)', function() {
 describe('bubbleSort(array)', function() {
   it('Debe retornar el array ordenado de menor a mayor', function() {
     expect(bubbleSort([5, 1, 4, 2, 8])).toEqual([1, 2, 4, 5, 8]);
-    expect(bubbleSort([10, 10, 16, 12])).toEqual([10, 10, 12, 16]);
+    expect(bubbleSort([10, 10, 16, 12])).toEqual([10, 10, 12, 16]); 
     expect(bubbleSort([10, -2, -7, 4])).toEqual([-7, -2, 4, 10]);
   });
 });
